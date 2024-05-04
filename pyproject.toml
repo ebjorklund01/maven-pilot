@@ -1,0 +1,15 @@
+#pyproject.toml
+[tool.poetry]
+name = "lsu-pilot"
+version = "0.1.0"
+description = ""
+authors = ["nheingit <60185486+nheingit@users.noreply.github.com>"]
+readme = "README.md"
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^21.1.1"
+openai = "^1.25.1"
+python-dotenv = "^1.0.1"
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
