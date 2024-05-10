@@ -16,6 +16,7 @@ langchain = "^0.1.17"
 numpy = "^1.26.4"
 scipy = "^1.13.0"
 cairosvg = "^2.7.1"
+requests = "^2.31.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
