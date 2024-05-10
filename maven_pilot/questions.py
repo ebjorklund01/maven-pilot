@@ -33,7 +33,7 @@ def distances_from_embeddings(
 openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
-df = pd.read_csv('processed/embeddings.csv', index_col=0)
+df = pd.read_csv('maven_pilot/processed/embeddings.csv', index_col=0)
 df['embeddings'] = df['embeddings'].apply(eval).apply(np.array)
 
 def create_context(question, df, max_len=1800):
